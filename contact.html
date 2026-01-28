@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - Prince RO System</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/contact.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Header will be loaded by JavaScript -->
+    <div id="header-container"></div>
+
+    <!-- Contact Hero -->
+    <section class="contact-hero">
+        <div class="container">
+            <div class="contact-hero-content">
+                <h1>Get in Touch</h1>
+                <p>We're here to help with all your water purification needs</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact-section">
+        <div class="container">
+            <div class="contact-container">
+                <!-- Contact Info -->
+                <div class="contact-info">
+                    <div class="info-card">
+                        <div class="info-icon">
+                            <i class="fas fa-map-marker-alt"></i>
+                        </div>
+                        <div class="info-content">
+                            <h3>Our Location</h3>
+                            <p>#4/14,Bharathi Salai,Ponni Nagar,</p>
+                            <p>Karambakkam,Porur, Chennai-600116</p>
+                        </div>
+                    </div>
+
+                    <div class="info-card">
+                        <div class="info-icon">
+                            <i class="fas fa-phone"></i>
+                        </div>
+                        <div class="info-content">
+                            <h3>Phone Number</h3>
+                            <p><a href="tel:+919841727775">+91 98417 27775</a></p>
+                            <p><a href="tel:+919841727776">+91 98417 27666</a></p>
+                        </div>
+                    </div>
+
+                    <div class="info-card">
+                        <div class="info-icon">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <div class="info-content">
+                            <h3>Email Address</h3>
+                            <p><a href="mailto:info@prince-ro.com">info@princerosystem.in</a></p>
+                            <!-- <p><a href="mailto:support@prince-ro.com">support@prince-ro.com</a></p> -->
+                        </div>
+                    </div>
+
+                    <div class="info-card">
+                        <div class="info-icon">
+                            <i class="fas fa-clock"></i>
+                        </div>
+                        <div class="info-content">
+                            <h3>Working Hours</h3>
+                            <p>Monday - Saturday: 10:00 AM - 9:00 PM</p>
+                            <p>Emergency Service: 24/7 Available</p>
+                        </div>
+                    </div>
+
+                    <div class="social-contact">
+                        <h3>Connect With Us</h3>
+                        <div class="social-icons">
+                            <a href="#" class="social-icon"><i class="fab fa-facebook-f"></i></a>
+                            <a href="#" class="social-icon"><i class="fab fa-instagram"></i></a>
+                            <a href="#" class="social-icon"><i class="fab fa-twitter"></i></a>
+                            <a href="#" class="social-icon"><i class="fab fa-youtube"></i></a>
+                            <a href="https://wa.me/919841727775" class="social-icon whatsapp" target="_blank">
+                                <i class="fab fa-whatsapp"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Contact Form -->
+                <div class="contact-form-container">
+                    <h2>Send Us a Message</h2>
+                    <form id="contactForm" class="contact-form">
+                        <div class="form-group">
+                            <label for="name">Full Name *</label>
+                            <input type="text" id="name" name="name" required placeholder="Enter your full name">
+                        </div>
+
+                        <div class="form-group">
+                            <label for="phone">Phone Number *</label>
+                            <input type="tel" id="phone" name="phone" required placeholder="Enter your 10-digit mobile number">
+                        </div>
+
+                        <div class="form-group">
+                            <label for="email">Email Address</label>
+                            <input type="email" id="email" name="email" placeholder="Enter your email address">
+                        </div>
+
+                        <div class="form-group">
+                            <label for="service">Service Required</label>
+                            <select id="service" name="service">
+                                <option value="">Select a service</option>
+                                <option value="installation">RO Installation</option>
+                                <option value="maintenance">Annual Maintenance</option>
+                                <option value="repair">Repair Service</option>
+                                <option value="filters">Filter Replacement</option>
+                                <option value="testing">Water Testing</option>
+                                <option value="commercial">Commercial Solution</option>
+                                <option value="other">Other</option>
+                            </select>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="message">Message *</label>
+                            <textarea id="message" name="message" rows="5" required placeholder="Describe your requirement in detail..."></textarea>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="preferredTime">Preferred Contact Time</label>
+                            <select id="preferredTime" name="preferredTime">
+                                <option value="">Select preferred time</option>
+                                <option value="morning">Morning (9 AM - 12 PM)</option>
+                                <option value="afternoon">Afternoon (12 PM - 4 PM)</option>
+                                <option value="evening">Evening (4 PM - 8 PM)</option>
+                                <option value="anytime">Anytime</option>
+                            </select>
+                        </div>
+
+                        <button type="submit" class="btn submit-btn">
+                            <i class="fas fa-paper-plane"></i> Send Message
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Map Section -->
+    <section class="map-section">
+        <div class="container">
+            <h2 class="section-title">Find Us Here</h2>
+            <div class="map-container">
+                <!-- Google Maps Embed -->
+                <div class="map-placeholder">
+                    <div class="map-info">
+                        <h3>Prince RO System Showroom</h3>
+                        <p><i class="fas fa-map-marker-alt"></i> #4/14,Bharathi Salai,Ponni Nagar,Karambakkam,Porur,
+Chennai-600116.</p>
+                        <p><i class="fas fa-phone"></i> +919841727775</p>
+                        <p><i class="fas fa-clock"></i> Monday - Saturday: 10:00 AM - 9:00 PM</p>
+                        <a href="https://maps.app.goo.gl/kkXE6rSMDdj7Xnaz8" class="btn" target="_blank">
+                            <i class="fas fa-directions"></i> Get Directions
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section class="faq-section">
+        <div class="container">
+            <h2 class="section-title">Frequently Asked Questions</h2>
+            <div class="faq-container">
+                <div class="faq-item">
+                    <button class="faq-question">
+                        How quickly can you install a new RO system?
+                        <i class="fas fa-chevron-down"></i>
+                    </button>
+                    <div class="faq-answer">
+                        <p>We typically install new RO systems within 24 hours of booking. For urgent requirements, we offer same-day installation service. The actual installation takes about 2-3 hours depending on the complexity and your plumbing setup.</p>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <button class="faq-question">
+                        What is included in your annual maintenance package?
+                        <i class="fas fa-chevron-down"></i>
+                    </button>
+                    <div class="faq-answer">
+                        <p>Our annual maintenance package includes: 4 quarterly services, replacement of all filters (2 sets), membrane cleaning, UV lamp checkup, complete system sanitization, and 24/7 emergency support. All parts and labor are covered under the package.</p>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <button class="faq-question">
+                        Do you provide service for all RO brands?
+                        <i class="fas fa-chevron-down"></i>
+                    </button>
+                    <div class="faq-answer">
+                        <p>Yes, we provide service for all major RO brands including Kent, Aquaguard, Pureit, Livpure, and others. Our technicians are trained on all popular models and we carry genuine spare parts for most brands.</p>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <button class="faq-question">
+                        How often should RO filters be replaced?
+                        <i class="fas fa-chevron-down"></i>
+                    </button>
+                    <div class="faq-answer">
+                        <p>Filter replacement frequency depends on your water quality and usage. Generally: Sediment filter every 6 months, Carbon filters every 9 months, RO membrane every 1-2 years, and Post-carbon filter every year. We provide free water testing to recommend the right schedule.</p>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <button class="faq-question">
+                        What areas do you service?
+                        <i class="fas fa-chevron-down"></i>
+                    </button>
+                    <div class="faq-answer">
+                        <p>We service the entire city and surrounding areas. Our service radius covers approximately 50km from our main office. Please contact us with your specific location to confirm service availability.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Emergency Contact -->
+    <section class="contact-emergency">
+        <div class="container">
+            <div class="emergency-banner">
+                <div class="emergency-content">
+                    <div class="emergency-icon">
+                        <i class="fas fa-ambulance"></i>
+                    </div>
+                    <div class="emergency-text">
+                        <h2>Emergency RO Service Available 24/7</h2>
+                        <p>For urgent RO issues like no water, leakage, or system breakdown</p>
+                    </div>
+                    <div class="emergency-buttons">
+                        <a href="tel:+919841727775" class="btn emergency-call">
+                            <i class="fas fa-phone"></i> Call Now
+                        </a>
+                        <a href="https://wa.me/919841727775?text=Emergency%20RO%20Service%20Required" 
+                           class="btn btn-whatsapp" target="_blank">
+                            <i class="fab fa-whatsapp"></i> WhatsApp
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer will be loaded by JavaScript -->
+    <div id="footer-container"></div>
+
+    <!-- WhatsApp Floating Button -->
+    <a href="https://wa.me/919841727775" class="whatsapp-float" target="_blank">
+        <i class="fab fa-whatsapp"></i>
+    </a>
+
+    <!-- Success Modal -->
+    <div id="successModal" class="modal">
+        <div class="modal-content">
+            <div class="modal-success">
+                <div class="success-icon">
+                    <i class="fas fa-check-circle"></i>
+                </div>
+                <h2>Thank You!</h2>
+                <p>Please click WhatsApp. We'll contact you within 30 minutes.</p>
+                <button class="btn close-modal">OK</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="js/components.js"></script>
+    <script src="js/contact.js"></script>
+</body>
+</html>
