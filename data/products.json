@@ -1,0 +1,136 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "Prince RO+UV+UF Water Purifier",
+      "category": "Home Purifier",
+      "price": "₹12,999",
+      "discountedPrice": "₹10,999",
+      "images": ["product1-main.jpeg", "product1-1.jpeg", "product1-2.jpeg"],
+      "description": "Advanced 7-stage RO+UV+UF purification system with TDS controller for perfect drinking water.",
+      "specifications": {
+        "Purification Technology": "RO + UV + UF + TDS Controller",
+        "Storage Capacity": "8 Liters",
+        "Purification Stages": "7 Stages",
+        "Suitable For": "TDS up to 2000 ppm",
+        "Warranty": "1 Year on Product, 2 Years on Membrane"
+      },
+      "features": [
+        "7-Stage Purification Process",
+        "Smart LED Indicators",
+        "Zero Water Wastage Technology",
+        "Mineral Guard Technology",
+        "Auto Shut-off Feature"
+      ],
+      "whatsappNumber": "+919876543210",
+      "whatsappMessage": "Hello Prince RO System,\n\nI want to buy: *Prince RO+UV+UF Water Purifier*\n\n*Product Details:*\n- Price: ₹10,999 (₹12,999)\n- Category: Home Purifier\n- Features: 7-Stage Purification, Mineral Guard, Zero Water Wastage\n- Warranty: 1 Year Product + 2 Years Membrane\n\nPlease send me:\n1. Best price quote\n2. Installation details\n3. Available payment options\n4. Delivery timeline\n\nThank you!"
+    },
+    {
+      "id": 2,
+      "name": "Compact RO Water Purifier",
+      "category": "Compact Purifier",
+      "price": "₹8,999",
+      "discountedPrice": "₹7,499",
+      "images": ["product2-main.jpeg", "product2-1.jpeg"],
+      "description": "Space-saving RO water purifier perfect for small families and offices.",
+      "specifications": {
+        "Purification Technology": "RO + UV",
+        "Storage Capacity": "6 Liters",
+        "Purification Stages": "5 Stages",
+        "Suitable For": "TDS up to 1500 ppm",
+        "Warranty": "1 Year Comprehensive"
+      },
+      "features": [
+        "Compact Design",
+        "Energy Efficient",
+        "Easy Maintenance",
+        "Child Lock Feature",
+        "Low Maintenance Cost"
+      ],
+      "whatsappNumber": "+919876543210",
+      "whatsappMessage": "Hello Prince RO System,\n\nI want to buy: *Compact RO Water Purifier*\n\n*Product Details:*\n- Price: ₹7,499 (₹8,999)\n- Category: Compact Purifier\n- Features: Compact Design, Energy Efficient, Child Lock\n- Warranty: 1 Year Comprehensive\n\nPlease send me:\n1. Best price quote\n2. Installation details\n3. Available payment options\n4. Delivery timeline\n\nThank you!"
+    },
+    {
+      "id": 3,
+      "name": "Commercial RO System",
+      "category": "Commercial",
+      "price": "₹45,999",
+      "discountedPrice": "₹39,999",
+      "images": ["product3-main.jpeg", "product3-1.jpeg", "product3-2.jpeg", "product3-3.jpeg"],
+      "description": "Heavy-duty commercial RO system for offices, restaurants, and institutions.",
+      "specifications": {
+        "Purification Technology": "Commercial RO + UV + UF",
+        "Capacity": "50 Liters per Hour",
+        "Purification Stages": "8 Stages",
+        "Suitable For": "TDS up to 3000 ppm",
+        "Warranty": "2 Years on Product"
+      },
+      "features": [
+        "High Capacity Output",
+        "Stainless Steel Housing",
+        "Multiple Pre-filters",
+        "Digital Display",
+        "Auto Flush System"
+      ],
+      "whatsappNumber": "+919876543210",
+      "whatsappMessage": "Hello Prince RO System,\n\nI want to buy: *Commercial RO System*\n\n*Product Details:*\n- Price: ₹39,999 (₹45,999)\n- Category: Commercial\n- Features: 50L/Hour, Stainless Steel, Digital Display\n- Warranty: 2 Years on Product\n\nPlease send me:\n1. Custom quote\n2. Installation requirements\n3. Maintenance contract\n4. Commercial discount\n\nThank you!"
+    },
+    {
+      "id": 4,
+      "name": "Alkaline Water Purifier",
+      "category": "Premium",
+      "price": "₹18,999",
+      "discountedPrice": "₹15,999",
+      "images": ["product4-main.jpeg", "product4-1.jpeg"],
+      "description": "RO system with alkaline filter for pH balanced, mineral-rich drinking water.",
+      "specifications": {
+        "Purification Technology": "RO + Alkaline + UV",
+        "Storage Capacity": "10 Liters",
+        "pH Level": "8.5 - 9.5",
+        "Suitable For": "Health-conscious families",
+        "Warranty": "1 Year Comprehensive"
+      },
+      "features": [
+        "Alkaline Water Production",
+        "Mineral Retention",
+        "Antioxidant Properties",
+        "pH Balance Indicator",
+        "Smart Notifications"
+      ],
+      "whatsappNumber": "+919876543210",
+      "whatsappMessage": "Hello Prince RO System,\n\nI want to buy: *Alkaline Water Purifier*\n\n*Product Details:*\n- Price: ₹15,999 (₹18,999)\n- Category: Premium\n- Features: Alkaline Water, pH Balance, Mineral Retention\n- Warranty: 1 Year Comprehensive\n\nPlease send me:\n1. Health benefits details\n2. Installation process\n3. Filter replacement schedule\n4. Special offers\n\nThank you!"
+    }
+  ],
+  "services": [
+    {
+      "id": 1,
+      "name": "RO Installation",
+      "price": "₹999",
+      "description": "Professional installation of RO water purifiers with full setup and testing."
+    },
+    {
+      "id": 2,
+      "name": "Annual Maintenance",
+      "price": "₹2,999/year",
+      "description": "Comprehensive annual maintenance package including filter changes and servicing."
+    },
+    {
+      "id": 3,
+      "name": "Filter Replacement",
+      "price": "Starting from ₹499",
+      "description": "Genuine filter replacement for all RO models with warranty."
+    },
+    {
+      "id": 4,
+      "name": "Repair Service",
+      "price": "Starting from ₹299",
+      "description": "Expert repair services for all RO purifier issues with 30-day service warranty."
+    }
+  ],
+  "companyInfo": {
+    "whatsappNumber": "+919876543210",
+    "phoneNumber": "+919841727776",
+    "email": "info@prince-ro.com",
+    "address": "123 Water Street, Pure City, PC 123456"
+  }
+}
