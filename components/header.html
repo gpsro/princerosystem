@@ -1,0 +1,70 @@
+<header class="site-header">
+    <div class="container header-container">
+        <div class="logo">
+            <div class="logo-img-placeholder">
+                <img src="/images/logo.png" alt="" style="width: 60px; height: 60px;">
+            </div>
+            <div class="logo-text">
+                <h1>Prince RO System</h1>
+                <p>Pure Water Solutions</p>
+            </div>
+        </div>
+        
+        <button class="mobile-menu-btn">
+            <i class="fas fa-bars"></i>
+        </button>
+        
+        <nav class="main-nav">
+            <ul>
+                <li><a href="index.html" class="nav-link"><i class="fas fa-home"></i> Home</a></li>
+                <li><a href="about.html" class="nav-link"><i class="fas fa-info-circle"></i> About</a></li>
+                <li><a href="products.html" class="nav-link"><i class="fas fa-shopping-cart"></i> Products</a></li>
+                <li><a href="services.html" class="nav-link"><i class="fas fa-concierge-bell"></i> Services</a></li>
+                <li><a href="contact.html" class="nav-link"><i class="fas fa-phone-alt"></i> Contact</a></li>
+            </ul>
+        </nav>
+    </div>
+</header>
+
+<style>
+    .logo-img-placeholder {
+        width: 60px;
+        height: 60px;
+        background: white;
+        align-items: center;
+        justify-content: center;
+        /* color: white; */
+        font-size: 2rem;
+        border-radius: 15px;
+        /* border: 3px solid rgb(43, 10, 190); */
+        /* box-shadow: 0 2px 8px rgba(255, 255, 255, 0.3); */
+    }
+    
+    @media (max-width: 768px) {
+        .main-nav ul {
+            display: none;
+            flex-direction: column;
+            position: absolute;
+            top: 100%;
+            left: 0;
+            width: 100%;
+            background-color: var(--secondary-blue);
+            padding: 20px;
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+        }
+        
+        .main-nav.active ul {
+            display: flex;
+        }
+        
+        .main-nav ul li {
+            width: 100%;
+        }
+        
+        .nav-link {
+            justify-content: center;
+            border-radius: 10px;
+            margin-bottom: 10px;
+        }
+    }
+</style>
